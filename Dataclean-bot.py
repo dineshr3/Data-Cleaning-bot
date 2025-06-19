@@ -1,4 +1,3 @@
-# token=8067697754:AAGfRwcf9nG66vZ0trM4C86OxtnpGMWiHZ8
 import pandas as pd  # type: ignore
 from telegram import Update
 from telegram.ext import (
@@ -7,7 +6,7 @@ from telegram.ext import (
 )
 from telegram.error import TimedOut
 
-BOT_TOKEN = '8067697754:AAGfRwcf9nG66vZ0trM4C86OxtnpGMWiHZ8'  # Replace with your actual bot token
+BOT_TOKEN = 'TOKEN'  # Replace with your actual bot token 
 COLUMNS_TO_DROP = ['unnamed: 0']
 
 # /start command
